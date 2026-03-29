@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dünya Silah Ansiklopedisi</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: #e0e0e0; margin: 0; }
+        header { background-color: #000; padding: 20px; text-align: center; border-bottom: 3px solid #d4af37; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+        .weapon-card { 
+            background: #2d2d2d; border-radius: 10px; width: 300px; margin: 15px; 
+            overflow: hidden; border: 1px solid #444; transition: 0.3s;
+        }
+        .weapon-card:hover { transform: scale(1.05); border-color: #d4af37; }
+        .weapon-img { width: 100%; height: 200px; background-color: #444; object-fit: cover; }
+        .content { padding: 15px; }
+        h2 { color: #d4af37; margin-top: 0; }
+        .spec-list { font-size: 0.9em; list-style: none; padding: 0; }
+        .spec-list li { border-bottom: 1px dashed #555; padding: 5px 0; }
+        .badge { background: #d4af37; color: #000; padding: 3px 8px; border-radius: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Global Silah Veritabanı</h1>
+    <p>Dünya üzerindeki tüm silah çeşitleri, teknik özellikler ve görseller</p>
+</header>
+
+<div class="container">
+    <div class="weapon-card">
+        <img src="https://via.placeholder.com/300x200?text=AK-47" alt="AK-47" class="weapon-img">
+        <div class="content">
+            <span class="badge">Piyade Tüfeği</span>
+            <h2>AK-47 (Kalaşnikov)</h2>
+            <ul class="spec-list">
+                <li><strong>Ülke:</strong> Sovyetler Birliği</li>
+                <li><strong>Kalibre:</strong> 7.62x39mm</li>
+                <li><strong>Ağırlık:</strong> 3.47 kg</li>
+                <li><strong>Menzil:</strong> 350m (Etkili)</li>
+            </ul>
+            <p>Dünyanın en çok üretilen ve en dayanıklı tüfeklerinden biri.</p>
+        </div>
+    </div>
+
+    <div class="weapon-card">
+        <img src="https://via.placeholder.com/300x200?text=M1A2+Abrams" alt="M1A2 Abrams" class="weapon-img">
+        <div class="content">
+            <span class="badge">Ana Muharebe Tankı</span>
+            <h2>M1A2 Abrams</h2>
+            <ul class="spec-list">
+                <li><strong>Ülke:</strong> ABD</li>
+                <li><strong>Ana Silah:</strong> 120mm Yivsiz Top</li>
+                <li><strong>Hız:</strong> 67 km/s</li>
+            </ul>
+            <p>Gelişmiş zırh koruması ve ateş gücü ile modern savaş alanının lideri.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
