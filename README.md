@@ -1,0 +1,2 @@
+# silah-bilgisi
+silah bilgisi
